@@ -1,0 +1,36 @@
+" add pathogen 
+execute pathogen#infect()
+
+" filetypes
+filetype on
+filetype plugin on
+filetype indent on
+
+" mapleader
+let mapleader=","
+
+" settings
+set background=dark
+set autoindent
+set smartindent
+set noswapfile
+set number
+set nobackup
+set hlsearch
+set encoding=utf8
+
+" tabs and stuff
+set shiftwidth=2
+set softtabstop=2
+set laststatus=2
+set expandtab
+
+" colors
+set t_Co=256
+colorscheme molokai
+
+" react
+let g:jsx_ext_required=0
+
+" html indenting
+let g:html_indent_inctags = "body,head,tbody"
