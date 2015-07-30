@@ -1,0 +1,3 @@
+[submodule "bin/dotfiles/sym/.vim/bundle/colorschemes"]
+	path = bin/dotfiles/sym/.vim/bundle/colorschemes
+	url = https://github.com/flazz/vim-colorschemes.git
