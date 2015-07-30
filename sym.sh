@@ -12,6 +12,7 @@ update () {
     # symlink dotfiles from git repo
     ln -s -i bin/dotfiles/sym/"$f" ~/."$f"
   done
+  ln -s -i bin/dotfiles/sym/.vim ~/.vim
 
   # update vim submodules
   cd bin/dotfiles/sym/vim 
